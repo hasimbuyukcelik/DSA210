@@ -14,20 +14,19 @@ By analyzing this connection, the project seeks to uncover how gaming intensity,
 ## Dataset Description
 
 ### 1. Testosterone Data
-- **Source**: Personal saliva or blood tests (via a local laboratory or at-home testing kit)  
+- **Source**: Personal Test
 - **Fields**:
   - **Date**  
   - **Time of Day** (since testosterone levels fluctuate diurnally)  
   - **Testosterone Level** (ng/dL or nmol/L)  
-  - **Additional Metadata** (e.g., sleep quality, stress level, if collected)
+  - **Additional Metadata** (e.g., gender, cortisol level, if collected)
 
 ### 2. Gaming Behavior Data
 - **Source**: Steam, Xbox, PlayStation, or mobile gaming logs (via gaming platform APIs or manual tracking)  
 - **Fields**:
   - **Date**  
   - **Gaming Duration** (hours)  
-  - **Game Type** (e.g., Competitive: FPS like Valorant; Casual: Simulation like Stardew Valley)  
-  - **Session Intensity** (e.g., ranked matches vs. casual play, self-reported or inferred)  
+  - **Game Type** (e.g., Competitive: FPS like Valorant; Casual: Simulation like Stardew Valley)    
   - **Platform** (e.g., PC, Console, Mobile)
 
 ---
@@ -35,7 +34,7 @@ By analyzing this connection, the project seeks to uncover how gaming intensity,
 ## Data Collection Process
 
 - **Testosterone Data**:  
-  Testosterone levels will be measured using a saliva or blood test kit at consistent times of day (e.g., morning) to account for diurnal variation. Measurements will be taken daily or on specific days aligned with gaming activity over a set period (e.g., 30 days).
+  Testosterone levels will be taken datasets.
 
 - **Gaming Behavior Data**:  
   Gaming data will be collected by exporting activity logs from gaming platforms (e.g., Steam API, PlayStation Network reports) or manually logging gaming sessions. If APIs are unavailable, a daily journal of gaming duration, game type, and session intensity will be maintained.
